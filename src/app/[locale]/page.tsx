@@ -13,7 +13,7 @@ import { company, telHrefs, fullAddress } from "@/data/company";
 import { SectionHeading } from "@/components/section-heading";
 import { ServiceCard } from "@/components/service-card";
 import { CtaBanner } from "@/components/cta-banner";
-import { Monogram } from "@/components/logo";
+import { Logo } from "@/components/logo";
 import { ServiceIcon, supplyIcons } from "@/components/icons";
 import { LocalBusinessJsonLd } from "@/components/json-ld";
 
@@ -41,51 +41,67 @@ export default async function HomePage({
     <>
       <LocalBusinessJsonLd />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden border-b border-border-subtle bg-gradient-to-b from-surface to-bg">
+      {/* HERO — navy cover with ascending-bars motif */}
+      <section className="relative overflow-hidden bg-navy text-white">
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -right-40 top-0 h-[36rem] w-[36rem] rounded-full bg-brand-blue/5 blur-3xl"
-        />
-        <div className="container-page relative grid items-center gap-12 py-16 md:py-24 lg:grid-cols-[1.15fr_0.85fr]">
-          <div>
-            <p className="eyebrow">{t("eyebrow")}</p>
-            <h1 className="mt-4 max-w-xl">{t("headline")}</h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
-              {t("subheadline")}
-            </p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/services" className="btn btn-primary text-base">
-                {t("primaryCta")}
-                <ArrowRight className="size-5" aria-hidden="true" />
-              </Link>
-              <Link href="/contact" className="btn btn-secondary text-base">
-                {t("secondaryCta")}
-              </Link>
-            </div>
+          className="pointer-events-none absolute inset-0 flex items-end gap-3 px-6 opacity-[0.14] md:gap-5 md:px-10"
+        >
+          {Array.from({ length: 12 }).map((_, i) => (
+            <span
+              key={i}
+              className={i % 2 === 0 ? "flex-1 bg-brand-orange" : "flex-1 bg-white"}
+              style={{
+                height: `${28 + ((i * 37) % 70)}%`,
+                clipPath: "polygon(0% 18%, 100% 0%, 100% 100%, 0% 100%)",
+              }}
+            />
+          ))}
+        </div>
+
+        <div className="container-page relative py-20 md:py-28">
+          <Logo
+            alt={t("logoAlt")}
+            priority
+            className="mb-8 h-10 [filter:brightness(0)_invert(1)] md:h-12"
+          />
+          <p className="eyebrow !text-brand-orange">{t("eyebrow")}</p>
+          <h1 className="mt-4 max-w-4xl text-white">{t("headline")}</h1>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-on-dark-muted md:text-xl">
+            {t("subheadline")}
+          </p>
+          <div className="mt-9 flex flex-wrap gap-3">
+            <Link href="/services" className="btn btn-accent text-base">
+              {t("primaryCta")}
+              <ArrowRight className="size-5" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/contact"
+              className="btn text-base border-[1.5px] border-white/40 text-white hover:border-white hover:bg-white/10"
+            >
+              {t("secondaryCta")}
+            </Link>
           </div>
 
-          {/* Brand visual panel */}
-          <div className="relative">
-            <div className="surface-card mx-auto max-w-sm p-8 shadow-xl">
-              <div className="flex items-center justify-center rounded-lg bg-surface py-8">
-                <Monogram alt={company.brandName} size={120} />
+          <div className="mt-14 flex flex-wrap gap-x-10 gap-y-3 border-t border-white/15 pt-6 font-mono text-xs tracking-wide text-on-dark-muted">
+            <span>{company.address.locality}, {company.address.region}</span>
+            <span>NIF {company.nif}</span>
+            <span>{company.phones[0]}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* HIGHLIGHTS */}
+      <section className="section bg-bg">
+        <div className="container-page">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {highlights.map((h) => (
+              <div key={h.title} className="surface-card p-6">
+                <CheckCircle2 className="size-6 text-brand-orange" aria-hidden="true" />
+                <h3 className="mt-4 text-xl text-brand-blue">{h.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-muted">{h.text}</p>
               </div>
-              <ul className="mt-6 space-y-3">
-                {highlights.map((h) => (
-                  <li key={h.title} className="flex items-start gap-3">
-                    <CheckCircle2
-                      className="mt-0.5 size-5 shrink-0 text-brand-blue"
-                      aria-hidden="true"
-                    />
-                    <div>
-                      <p className="text-sm font-semibold text-ink">{h.title}</p>
-                      <p className="text-sm text-ink-muted">{h.text}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            ))}
           </div>
         </div>
       </section>

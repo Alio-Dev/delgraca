@@ -7,7 +7,6 @@ import { Link, usePathname } from "@/i18n/navigation";
 import type { AppPathnames } from "@/i18n/routing";
 import { Logo } from "@/components/logo";
 import { LanguageSwitcher } from "@/components/language-switcher";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { SiteSearch, type SearchItem } from "@/components/site-search";
 import { cn } from "@/lib/utils";
 
@@ -161,12 +160,11 @@ export function HeaderClient({
             type="button"
             onClick={() => setSearchOpen(true)}
             aria-label={tSearch("label")}
-            className="inline-flex size-11 items-center justify-center rounded-md text-ink-muted transition-colors hover:bg-surface hover:text-ink"
+            className="inline-flex size-11 items-center justify-center rounded-md text-ink-muted transition-colors hover:bg-surface hover:text-navy"
           >
             <SearchIcon className="size-5" aria-hidden="true" />
           </button>
-          <ThemeToggle label={{ light: "Modo claro", dark: "Modo escuro" }} />
-          <LanguageSwitcher locale={locale} className="hidden md:flex" />
+          <LanguageSwitcher locale={locale} className="hidden sm:inline-flex" />
           <Link
             href="/contact"
             className="btn btn-accent ml-1 hidden lg:inline-flex"

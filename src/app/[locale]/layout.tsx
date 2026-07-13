@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Sora, Inter } from "next/font/google";
+import { Big_Shoulders, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/data/company";
 import { SiteHeader } from "@/components/site-header";
@@ -10,16 +10,28 @@ import { SiteFooter } from "@/components/site-footer";
 import { OrganizationJsonLd } from "@/components/json-ld";
 import "../globals.css";
 
-const sora = Sora({
+// Display: confident, condensed industrial — echoes the bold logo wordmark.
+const display = Big_Shoulders({
   subsets: ["latin", "latin-ext"],
-  weight: ["500", "600", "700", "800"],
-  variable: "--font-sora",
+  weight: ["600", "700", "800", "900"],
+  variable: "--font-display",
   display: "swap",
 });
 
-const inter = Inter({
+// Body: highly legible humanist sans with full pt-AO diacritic coverage.
+const body = IBM_Plex_Sans({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-inter",
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+// Mono: eyebrows, labels, meta — technical/institutional accent.
+const mono = IBM_Plex_Mono({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
+  variable: "--font-mono",
   display: "swap",
 });
 
@@ -90,7 +102,10 @@ export default async function LocaleLayout({
   const t = await getTranslations({ locale, namespace: "nav" });
 
   return (
-    <html lang={locale} className={`${sora.variable} ${inter.variable}`}>
+    <html
+      lang={locale}
+      className={`${display.variable} ${body.variable} ${mono.variable}`}
+    >
       <body>
         <NextIntlClientProvider>
           <a href="#main" className="skip-link">
