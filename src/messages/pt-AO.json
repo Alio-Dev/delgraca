@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "locale": "pt-AO",
+    "siteName": "DELGRAÇA",
+    "legalName": "DELGRAÇA – Comércio Geral e Prestação de Serviços, Lda",
+    "tagline": "Comércio Geral e Prestação de Serviços, Lda",
+    "defaultTitle": "DELGRAÇA — Soluções técnicas integradas em Angola",
+    "defaultDescription": "Empresa angolana especializada em soluções técnicas integradas: gestão, tecnologia, projectos, consultoria, topografia e contabilidade. Rigor técnico e cumprimento de prazos."
+  },
+  "nav": {
+    "ariaLabel": "Principal",
+    "home": "Início",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "training": "Formações",
+    "supplies": "Fornecimentos",
+    "faq": "Perguntas Frequentes",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "cta": "Agendar Reunião",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "languageLabel": "Idioma",
+    "skipToContent": "Saltar para o conteúdo"
+  },
+  "hero": {
+    "eyebrow": "Comércio Geral e Prestação de Serviços",
+    "headline": "Soluções técnicas integradas para empresas públicas e privadas em Angola",
+    "subheadline": "Apoiamos instituições nas áreas de gestão, tecnologia, projectos, consultoria, topografia e contabilidade — com eficiência, rigor técnico e cumprimento dos prazos.",
+    "primaryCta": "Ver Serviços",
+    "secondaryCta": "Fale Connosco",
+    "logoAlt": "DELGRAÇA — Comércio Geral e Prestação de Serviços, Lda"
+  },
+  "highlights": {
+    "title": "Porquê a DELGRAÇA",
+    "items": [
+      { "title": "Rigor técnico", "text": "Equipa qualificada e padrões elevados de profissionalismo em cada projecto." },
+      { "title": "Cumprimento de prazos", "text": "Compromisso com a entrega dentro dos prazos acordados." },
+      { "title": "Soluções integradas", "text": "Um único parceiro para gestão, tecnologia, topografia, projectos e contabilidade." },
+      { "title": "Capacidade instalada", "text": "Infraestrutura informática, equipamento topográfico e ferramentas de engenharia próprias." }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Serviços",
+    "sectionSubtitle": "Portfólio de soluções técnicas para o sector público e privado.",
+    "viewAll": "Ver todos os serviços",
+    "viewDetail": "Saber mais",
+    "detailIntro": "Conheça em detalhe como a DELGRAÇA apoia a sua instituição.",
+    "items": [
+      {
+        "slug": "sistemas-de-gestao",
+        "name": "Implementação e Treinamento de Sistemas de Gestão Empresarial",
+        "short": "Implementação, parametrização e formação em sistemas de gestão empresarial.",
+        "long": "Implementamos e parametrizamos sistemas de gestão empresarial adequados à realidade de cada instituição, acompanhando todo o processo com formação prática das equipas. O objectivo é garantir a adopção efectiva da ferramenta, a integridade dos dados e ganhos reais de eficiência operacional."
+      },
+      {
+        "slug": "software-personalizado",
+        "name": "Desenvolvimento de Software Personalizado à Medida das Necessidades do Cliente",
+        "short": "Aplicações à medida, desenhadas em torno dos processos reais do cliente.",
+        "long": "Desenvolvemos software à medida, concebido a partir dos processos e necessidades concretas do cliente. Desde a análise de requisitos até à entrega e manutenção, criamos soluções fiáveis e escaláveis que se integram com os sistemas já existentes na organização."
+      },
+      {
+        "slug": "consultoria-ambiental",
+        "name": "Consultoria Ambiental e Elaboração de Estudos e Relatórios Técnicos",
+        "short": "Estudos ambientais e relatórios técnicos rigorosos e fundamentados.",
+        "long": "Prestamos consultoria ambiental e elaboramos estudos e relatórios técnicos com recurso a metodologias de recolha e análise de dados. Apoiamos as instituições no cumprimento das exigências técnicas e regulamentares, com documentação clara, rigorosa e defensável."
+      },
+      {
+        "slug": "processos-mineiros",
+        "name": "Tramitação de Processos Mineiros",
+        "short": "Acompanhamento técnico e administrativo de processos do sector mineiro.",
+        "long": "Acompanhamos a tramitação de processos mineiros nas suas vertentes técnica e administrativa, apoiando a preparação da documentação e o cumprimento dos requisitos aplicáveis. Trabalhamos para reduzir prazos e assegurar a conformidade em cada etapa."
+      },
+      {
+        "slug": "projectos-arquitectonicos",
+        "name": "Elaboração de Projectos Arquitectónicos",
+        "short": "Concepção e desenvolvimento de projectos arquitectónicos.",
+        "long": "Concebemos e desenvolvemos projectos arquitectónicos, recorrendo a ferramentas CAD/BIM para a concepção, análise e representação. Da ideia inicial ao projecto de execução, procuramos equilíbrio entre função, viabilidade técnica e qualidade."
+      },
+      {
+        "slug": "topografia-sig",
+        "name": "Topografia e Sistemas de Informação Geográfica (SIG)",
+        "short": "Levantamentos topográficos e produção de informação geoespacial.",
+        "long": "Executamos levantamentos topográficos e serviços de SIG com estações totais, receptores GNSS/GPS, níveis e drones para apoio à fotogrametria. Produzimos cartografia e bases de dados geoespaciais fiáveis para projectos de engenharia, urbanismo e gestão do território."
+      },
+      {
+        "slug": "contabilidade-fiscalidade",
+        "name": "Contabilidade e Fiscalidade",
+        "short": "Contabilidade organizada e apoio ao cumprimento das obrigações fiscais.",
+        "long": "Asseguramos serviços de contabilidade e fiscalidade, do registo organizado das operações ao apoio no cumprimento das obrigações fiscais. Oferecemos informação financeira clara e atempada que suporta a tomada de decisão da gestão."
+      },
+      {
+        "slug": "gestao-imoveis",
+        "name": "Gestão e Reabilitação de Imóveis",
+        "short": "Gestão e reabilitação de imóveis com acompanhamento técnico.",
+        "long": "Apoiamos a gestão e a reabilitação de imóveis, com acompanhamento técnico das intervenções e coordenação dos trabalhos. Procuramos preservar o valor do património e garantir espaços funcionais, seguros e bem conservados."
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Formações",
+    "sectionSubtitle": "Programas de capacitação técnica orientados para a prática.",
+    "items": [
+      {
+        "slug": "cegid-primavera-vendus",
+        "name": "Sistema de Gestão Cegid Primavera e Vendus",
+        "short": "Formação prática nos sistemas de gestão Cegid Primavera e Vendus.",
+        "long": "Formação orientada para a utilização eficaz dos sistemas de gestão Cegid Primavera e Vendus, cobrindo os fluxos essenciais do dia-a-dia da empresa e boas práticas de operação."
+      },
+      {
+        "slug": "topografia",
+        "name": "Topografia",
+        "short": "Fundamentos e prática de topografia com equipamento profissional.",
+        "long": "Programa de formação em topografia, dos fundamentos à operação de equipamento profissional em campo, com foco na recolha rigorosa e no tratamento de dados."
+      },
+      {
+        "slug": "cartografia-sig",
+        "name": "Cartografia e SIG (Sistema de Informação Geográfica)",
+        "short": "Produção cartográfica e análise em Sistemas de Informação Geográfica.",
+        "long": "Formação em cartografia e SIG, cobrindo a produção de mapas, a estruturação de dados geoespaciais e a análise espacial aplicada a projectos reais."
+      }
+    ]
+  },
+  "supplies": {
+    "sectionTitle": "Fornecimentos",
+    "sectionSubtitle": "Fornecimento de equipamentos e materiais por categoria. Para orçamentos, contacte-nos.",
+    "note": "Catálogo indicativo. Não inclui preços — os fornecimentos são orçamentados de acordo com a necessidade de cada cliente.",
+    "quoteCta": "Pedir orçamento",
+    "categories": [
+      {
+        "slug": "escritorio",
+        "name": "Escritório",
+        "description": "Mobiliário e equipamento para ambientes de trabalho profissionais.",
+        "items": ["Mesas", "Cadeiras ergonómicas", "Mesas auxiliares", "Telefone fixo/VoIP", "Estantes", "Gaveteiros", "Arquivadores", "Quadro branco", "Ventilador / ar-condicionado"]
+      },
+      {
+        "slug": "informatica-redes",
+        "name": "Informática e Redes",
+        "description": "Equipamento informático e de rede para infraestruturas fiáveis.",
+        "items": ["Computadores (desktop/laptop)", "Monitores", "Teclados", "Ratos", "Impressoras", "Scanner", "Fotocopiadora", "Telefones IP/VoIP", "Roteador", "Switch de rede", "Modem", "Estabilizador", "HD externo / SSD", "Pen drives"]
+      },
+      {
+        "slug": "papelaria",
+        "name": "Papelaria",
+        "description": "Consumíveis e material de escritório para o dia-a-dia.",
+        "items": ["Resma de papel A4", "Blocos de notas", "Cadernos", "Envelopes", "Pastas", "Caixas de arquivo", "Separadores", "Etiquetas adesivas", "Carimbos", "Agrafador e agrafos"]
+      },
+      {
+        "slug": "seguranca",
+        "name": "Segurança",
+        "description": "Equipamentos de segurança e protecção de instalações.",
+        "items": ["Câmeras de segurança", "Cabos de rede/coaxiais", "Fonte de alimentação", "Botões de pânico", "Extintores", "Mangueiras de incêndio", "Sensores de movimento", "Alarmes sonoros", "Cartões de acesso / crachás"]
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre a DELGRAÇA",
+    "lead": "DELGRAÇA – Comércio Geral e Prestação de Serviços, Lda. é uma empresa angolana com sede em Luanda, especializada no fornecimento de soluções técnicas integradas, apoiando empresas públicas e privadas nas áreas de gestão, tecnologia, projectos, consultoria, topografia e contabilidade, com foco em eficiência, rigor técnico e cumprimento dos prazos.",
+    "capacityTitle": "Capacidade Técnica",
+    "capacityIntro": "Para assegurar a qualidade e a fiabilidade dos serviços, a DELGRAÇA dispõe de:",
+    "capacityItems": [
+      "Infraestrutura informática e tecnológica: computadores de alto desempenho, softwares licenciados (gestão, CAD, SIG), redes internas e sistemas de backup.",
+      "Equipamento topográfico e geoespacial: estações totais, receptores GNSS/GPS, níveis e drones para apoio à fotogrametria e a levantamentos de campo.",
+      "Ferramentas técnicas para projectos e engenharia: softwares CAD/BIM, plotters e equipamento de apoio à concepção e análise.",
+      "Equipamentos e recursos para consultoria ambiental e mineira, destinados à recolha, análise de dados e produção de relatórios especializados."
+    ],
+    "leadershipTitle": "Direcção",
+    "leadershipName": "Afonso Canga",
+    "leadershipRole": "Director Geral",
+    "legalTitle": "Dados Legais",
+    "legal": {
+      "legalName": "Denominação social",
+      "nif": "NIF",
+      "cae": "CAE",
+      "matricula": "Matrícula",
+      "address": "Sede",
+      "phones": "Contactos",
+      "email": "Email"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Fale connosco para uma reunião de apresentação ou um orçamento.",
+    "closing": "A DELGRAÇA, LDA coloca-se à disposição para estabelecer parcerias comerciais duradouras, oferecendo soluções ajustadas à realidade e às necessidades da instituição. Ressalvamos a nossa inteira disponibilidade para uma reunião de apresentação.",
+    "infoTitle": "Informações",
+    "addressLabel": "Endereço",
+    "phoneLabel": "Telefone",
+    "emailLabel": "Email",
+    "hoursLabel": "Horário",
+    "hours": "Segunda a Sexta, 08h00 – 17h00",
+    "mapPlaceholder": "Mapa: Rua da Missão, Prédio da Suniver, Ingombota, Luanda",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome completo",
+      "company": "Empresa / Instituição",
+      "companyPlaceholder": "Nome da empresa (opcional)",
+      "email": "Email",
+      "emailPlaceholder": "nome@empresa.co.ao",
+      "phone": "Telefone",
+      "phonePlaceholder": "+244 9XX XXX XXX",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Motivo do contacto",
+      "message": "Mensagem",
+      "messagePlaceholder": "Como podemos ajudar a sua instituição?",
+      "submit": "Enviar mensagem",
+      "sending": "A enviar…",
+      "required": "obrigatório",
+      "optional": "opcional",
+      "helpEmail": "Usaremos este email apenas para responder ao seu pedido.",
+      "helpPhone": "Formato: +244 seguido de 9 dígitos.",
+      "successTitle": "Mensagem enviada",
+      "successBody": "Obrigado pelo seu contacto. Responderemos com a maior brevidade.",
+      "errorTitle": "Não foi possível enviar",
+      "errorBody": "Ocorreu um erro. Tente novamente ou contacte-nos por email.",
+      "errors": {
+        "nameRequired": "Indique o seu nome.",
+        "emailRequired": "Indique o seu email.",
+        "emailInvalid": "Introduza um email válido.",
+        "phoneInvalid": "Introduza um número válido (+244 9XX XXX XXX).",
+        "subjectRequired": "Indique o assunto.",
+        "messageRequired": "Escreva a sua mensagem."
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Respostas às questões mais comuns sobre a DELGRAÇA.",
+    "items": [
+      {
+        "q": "Que serviços a DELGRAÇA presta?",
+        "a": "A DELGRAÇA presta soluções técnicas integradas nas áreas de implementação e treinamento de sistemas de gestão, desenvolvimento de software personalizado, consultoria ambiental, tramitação de processos mineiros, projectos arquitectónicos, topografia e SIG, contabilidade e fiscalidade, e gestão e reabilitação de imóveis."
+      },
+      {
+        "q": "A DELGRAÇA oferece formações?",
+        "a": "Sim. A DELGRAÇA disponibiliza formações em Sistema de Gestão Cegid Primavera e Vendus, em Topografia e em Cartografia e SIG (Sistema de Informação Geográfica)."
+      },
+      {
+        "q": "Onde está localizada a DELGRAÇA?",
+        "a": "A DELGRAÇA tem sede na Rua da Missão, Prédio da Suniver, 2.º Andar, Porta n.º 21, Município da Ingombota, Luanda, Angola."
+      },
+      {
+        "q": "A DELGRAÇA fornece equipamentos e materiais?",
+        "a": "Sim. A DELGRAÇA fornece equipamentos e materiais nas categorias de Escritório, Informática e Redes, Papelaria e Segurança. Os fornecimentos são orçamentados de acordo com a necessidade de cada cliente."
+      },
+      {
+        "q": "Como posso agendar uma reunião de apresentação?",
+        "a": "A DELGRAÇA coloca-se à inteira disposição para uma reunião de apresentação. Pode contactar-nos pelo formulário de contacto, por email para delgracacomerciogeral@gmail.com ou pelos telefones +244 921 322 922 / +244 941 117 183."
+      }
+    ]
+  },
+  "search": {
+    "label": "Pesquisar",
+    "placeholder": "Pesquisar serviços, formações, fornecimentos…",
+    "resultsLabel": "Resultados",
+    "empty": "Comece a escrever para pesquisar.",
+    "noResults": "Sem resultados para",
+    "categoryService": "Serviço",
+    "categoryTraining": "Formação",
+    "categorySupply": "Fornecimento"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Artigos e boas práticas sobre gestão, tecnologia e projectos técnicos.",
+    "readMore": "Ler artigo",
+    "readingTime": "min de leitura",
+    "backToBlog": "Voltar ao blog",
+    "publishedOn": "Publicado a",
+    "relatedTitle": "Continue a explorar"
+  },
+  "footer": {
+    "about": "Empresa angolana especializada em soluções técnicas integradas para o sector público e privado.",
+    "quickLinks": "Navegação",
+    "servicesTitle": "Serviços",
+    "contactTitle": "Contacto",
+    "legalTitle": "Dados legais",
+    "rights": "Todos os direitos reservados.",
+    "madeIn": "Luanda, Angola"
+  },
+  "cta": {
+    "bannerTitle": "Vamos trabalhar juntos?",
+    "bannerText": "Estabeleça uma parceria com a DELGRAÇA e obtenha soluções ajustadas à realidade da sua instituição.",
+    "bannerButton": "Agendar Reunião"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "text": "A página que procura não existe ou foi movida.",
+    "home": "Voltar ao início"
+  }
+}

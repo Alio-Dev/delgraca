@@ -1,0 +1,53 @@
+---
+# ─────────────────────────────────────────────────────────────────────────────
+# DELGRAÇA blog post — frontmatter contract (Phase 8)
+# Copy this file, rename to <slug>.<locale>.mdx, fill in the fields.
+# Every field below is REQUIRED unless marked optional.
+# ─────────────────────────────────────────────────────────────────────────────
+title: "Boas práticas de gestão de projectos para empresas em Angola"
+description: "Meta description, ~150–160 characters. Summarises the article for
+  search engines and social cards. Keep it benefit-oriented and specific."
+date: "2026-06-30"            # ISO 8601 (YYYY-MM-DD)
+slug: "boas-praticas-gestao-de-projectos"   # kebab-case; shared across locales
+locale: "pt-AO"              # "pt-AO" | "en"
+tags: ["Gestão", "Projectos", "Boas práticas"]
+ogImage: "/opengraph-image"  # optional; defaults to the site OG image
+readingMinutes: 5
+---
+
+<!--
+INTERNAL LINKING (SEO): every post MUST link to at least two relevant Service
+detail pages using localized routes. In this MDX authoring format, use the
+localized href for the current locale, e.g.:
+
+  pt-AO:  [Topografia e SIG](/servicos/topografia-sig)
+  en:     [Surveying & GIS](/services/topografia-sig)
+
+The slug segment (topografia-sig) is the same in both locales; only the base
+path differs (/servicos vs /services).
+-->
+
+A boa gestão de projectos é, muitas vezes, a diferença entre uma entrega dentro
+do prazo e um investimento que se arrasta.
+
+## 1. Defina o âmbito antes de começar
+
+Um âmbito claro evita alterações constantes e custos não previstos.
+
+## 2. Estruture a informação técnica
+
+Projectos técnicos dependem de dados fiáveis — é o caso dos nossos serviços de
+[Topografia e SIG](/servicos/topografia-sig), que garantem uma base de dados
+sólida para a tomada de decisão.
+
+## 3. Apoie-se em sistemas de gestão
+
+A [implementação e treinamento de sistemas de gestão](/servicos/sistemas-de-gestao)
+ajuda a equipa a trabalhar com dados consistentes e relatórios atempados.
+
+<!--
+NOTE: The live site renders blog content from src/content/blog.ts (typed blocks
+with type-safe internal links). This .mdx file documents the equivalent
+authoring contract for when a headless CMS or @next/mdx pipeline is wired up
+(see CMS_RECOMMENDATION.md, Phase 13).
+-->

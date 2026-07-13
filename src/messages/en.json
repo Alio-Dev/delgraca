@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "locale": "en",
+    "siteName": "DELGRAÇA",
+    "legalName": "DELGRAÇA – Comércio Geral e Prestação de Serviços, Lda",
+    "tagline": "General Trade & Provision of Services, Lda",
+    "defaultTitle": "DELGRAÇA — Integrated technical solutions in Angola",
+    "defaultDescription": "Angolan company specialised in integrated technical solutions: management, technology, projects, consulting, surveying and accounting. Technical rigour and on-time delivery."
+  },
+  "nav": {
+    "ariaLabel": "Main",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "training": "Training",
+    "supplies": "Supplies",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Schedule a Meeting",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Language",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "General Trade & Provision of Services",
+    "headline": "Integrated technical solutions for public and private organisations in Angola",
+    "subheadline": "We support institutions in management, technology, projects, consulting, surveying and accounting — with efficiency, technical rigour and on-time delivery.",
+    "primaryCta": "View Services",
+    "secondaryCta": "Contact Us",
+    "logoAlt": "DELGRAÇA — General Trade & Provision of Services, Lda"
+  },
+  "highlights": {
+    "title": "Why DELGRAÇA",
+    "items": [
+      { "title": "Technical rigour", "text": "A qualified team and high standards of professionalism on every project." },
+      { "title": "On-time delivery", "text": "A commitment to delivering within the agreed deadlines." },
+      { "title": "Integrated solutions", "text": "A single partner for management, technology, surveying, projects and accounting." },
+      { "title": "In-house capacity", "text": "Our own IT infrastructure, surveying equipment and engineering tools." }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "sectionSubtitle": "A portfolio of technical solutions for the public and private sectors.",
+    "viewAll": "View all services",
+    "viewDetail": "Learn more",
+    "detailIntro": "See in detail how DELGRAÇA supports your organisation.",
+    "items": [
+      {
+        "slug": "sistemas-de-gestao",
+        "name": "Enterprise Management Systems — Implementation & Training",
+        "short": "Implementation, configuration and training on enterprise management systems.",
+        "long": "We implement and configure enterprise management systems suited to each organisation's reality, supporting the entire process with hands-on team training. The goal is effective adoption of the tool, data integrity and real gains in operational efficiency. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "software-personalizado",
+        "name": "Custom Software Development Tailored to Client Needs",
+        "short": "Bespoke applications designed around the client's real processes.",
+        "long": "We develop custom software designed around the client's concrete processes and needs. From requirements analysis to delivery and maintenance, we build reliable, scalable solutions that integrate with the organisation's existing systems. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "consultoria-ambiental",
+        "name": "Environmental Consulting & Technical Studies and Reports",
+        "short": "Rigorous, well-founded environmental studies and technical reports.",
+        "long": "We provide environmental consulting and prepare technical studies and reports using data collection and analysis methodologies. We support institutions in meeting technical and regulatory requirements, with clear, rigorous and defensible documentation. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "processos-mineiros",
+        "name": "Mining Process Administration",
+        "short": "Technical and administrative handling of mining-sector processes.",
+        "long": "We handle the administration of mining processes across their technical and administrative dimensions, supporting document preparation and compliance with applicable requirements. We work to reduce timelines and ensure conformity at every stage. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "projectos-arquitectonicos",
+        "name": "Architectural Project Design",
+        "short": "Design and development of architectural projects.",
+        "long": "We design and develop architectural projects, using CAD/BIM tools for design, analysis and representation. From the initial idea to the construction design, we seek a balance between function, technical feasibility and quality. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "topografia-sig",
+        "name": "Surveying & Geographic Information Systems (GIS)",
+        "short": "Topographic surveys and production of geospatial information.",
+        "long": "We carry out topographic surveys and GIS services using total stations, GNSS/GPS receivers, levels and drones for photogrammetry support. We produce reliable cartography and geospatial databases for engineering, urban-planning and land-management projects. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "contabilidade-fiscalidade",
+        "name": "Accounting & Taxation",
+        "short": "Organised accounting and support with tax compliance.",
+        "long": "We provide accounting and taxation services, from the organised recording of operations to support with tax compliance. We deliver clear, timely financial information that supports management decision-making. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "gestao-imoveis",
+        "name": "Property Management & Refurbishment",
+        "short": "Property management and refurbishment with technical oversight.",
+        "long": "We support property management and refurbishment, with technical oversight of works and coordination of the various trades. We aim to preserve asset value and ensure functional, safe and well-maintained spaces. [[VERIFY TRANSLATION]]"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Training",
+    "sectionSubtitle": "Hands-on technical training programmes.",
+    "items": [
+      {
+        "slug": "cegid-primavera-vendus",
+        "name": "Cegid Primavera & Vendus Management Systems",
+        "short": "Hands-on training on the Cegid Primavera and Vendus systems.",
+        "long": "Training focused on the effective use of the Cegid Primavera and Vendus management systems, covering the essential day-to-day business flows and good operating practices. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "topografia",
+        "name": "Surveying",
+        "short": "Fundamentals and practice of surveying with professional equipment.",
+        "long": "A surveying training programme, from fundamentals to operating professional equipment in the field, focused on rigorous data collection and processing. [[VERIFY TRANSLATION]]"
+      },
+      {
+        "slug": "cartografia-sig",
+        "name": "Cartography & GIS (Geographic Information Systems)",
+        "short": "Map production and analysis in Geographic Information Systems.",
+        "long": "Training in cartography and GIS, covering map production, geospatial data structuring and spatial analysis applied to real projects. [[VERIFY TRANSLATION]]"
+      }
+    ]
+  },
+  "supplies": {
+    "sectionTitle": "Supplies",
+    "sectionSubtitle": "Supply of equipment and materials by category. Contact us for quotations.",
+    "note": "Indicative catalogue. No prices are shown — supplies are quoted according to each client's needs.",
+    "quoteCta": "Request a quote",
+    "categories": [
+      {
+        "slug": "escritorio",
+        "name": "Office",
+        "description": "Furniture and equipment for professional workspaces.",
+        "items": ["Desks", "Ergonomic chairs", "Side tables", "Fixed / VoIP phone", "Shelving", "Drawer units", "Filing cabinets", "Whiteboard", "Fan / air conditioning"]
+      },
+      {
+        "slug": "informatica-redes",
+        "name": "IT & Networking",
+        "description": "Computing and networking equipment for reliable infrastructure.",
+        "items": ["Computers (desktop/laptop)", "Monitors", "Keyboards", "Mice", "Printers", "Scanner", "Photocopier", "IP/VoIP phones", "Router", "Network switch", "Modem", "Voltage stabiliser", "External HDD / SSD", "USB drives"]
+      },
+      {
+        "slug": "papelaria",
+        "name": "Stationery",
+        "description": "Everyday office consumables and materials.",
+        "items": ["A4 paper ream", "Notepads", "Notebooks", "Envelopes", "Folders", "Archive boxes", "Dividers", "Adhesive labels", "Stamps", "Stapler and staples"]
+      },
+      {
+        "slug": "seguranca",
+        "name": "Security",
+        "description": "Security equipment and facility protection.",
+        "items": ["Security cameras", "Network / coaxial cables", "Power supply", "Panic buttons", "Fire extinguishers", "Fire hoses", "Motion sensors", "Audible alarms", "Access cards / badges"]
+      }
+    ]
+  },
+  "about": {
+    "title": "About DELGRAÇA",
+    "lead": "DELGRAÇA – Comércio Geral e Prestação de Serviços, Lda. is an Angolan company headquartered in Luanda, specialised in the provision of integrated technical solutions, supporting public and private organisations in management, technology, projects, consulting, surveying and accounting, with a focus on efficiency, technical rigour and on-time delivery.",
+    "capacityTitle": "Technical Capacity",
+    "capacityIntro": "To ensure the quality and reliability of its services, DELGRAÇA has:",
+    "capacityItems": [
+      "IT and technological infrastructure: high-performance computers, licensed software (management, CAD, GIS), internal networks and backup systems.",
+      "Topographic and geospatial equipment: total stations, GNSS/GPS receivers, levels and drones to support photogrammetry and field surveys.",
+      "Technical tools for projects and engineering: CAD/BIM software, plotters and equipment supporting design and analysis.",
+      "Equipment and resources for environmental and mining consulting, for data collection, analysis and the production of specialised reports."
+    ],
+    "leadershipTitle": "Leadership",
+    "leadershipName": "Afonso Canga",
+    "leadershipRole": "Director General",
+    "legalTitle": "Legal Information",
+    "legal": {
+      "legalName": "Legal name",
+      "nif": "Tax ID (NIF)",
+      "cae": "CAE",
+      "matricula": "Registration",
+      "address": "Head office",
+      "phones": "Phones",
+      "email": "Email"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch for a presentation meeting or a quotation.",
+    "closing": "DELGRAÇA, LDA is available to establish lasting commercial partnerships, offering solutions adjusted to the reality and needs of your organisation. We reaffirm our full availability for a presentation meeting.",
+    "infoTitle": "Information",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours",
+    "hours": "Monday to Friday, 08:00 – 17:00",
+    "mapPlaceholder": "Map: Rua da Missão, Prédio da Suniver, Ingombota, Luanda",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "company": "Company / Organisation",
+      "companyPlaceholder": "Company name (optional)",
+      "email": "Email",
+      "emailPlaceholder": "name@company.co.ao",
+      "phone": "Phone",
+      "phonePlaceholder": "+244 9XX XXX XXX",
+      "subject": "Subject",
+      "subjectPlaceholder": "Reason for contact",
+      "message": "Message",
+      "messagePlaceholder": "How can we help your organisation?",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "required": "required",
+      "optional": "optional",
+      "helpEmail": "We will use this email only to reply to your request.",
+      "helpPhone": "Format: +244 followed by 9 digits.",
+      "successTitle": "Message sent",
+      "successBody": "Thank you for reaching out. We will reply as soon as possible.",
+      "errorTitle": "Could not send",
+      "errorBody": "Something went wrong. Please try again or contact us by email.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter your email.",
+        "emailInvalid": "Please enter a valid email.",
+        "phoneInvalid": "Please enter a valid number (+244 9XX XXX XXX).",
+        "subjectRequired": "Please enter a subject.",
+        "messageRequired": "Please write your message."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions about DELGRAÇA.",
+    "items": [
+      {
+        "q": "What services does DELGRAÇA provide?",
+        "a": "DELGRAÇA provides integrated technical solutions in enterprise management systems implementation and training, custom software development, environmental consulting, mining process administration, architectural projects, surveying and GIS, accounting and taxation, and property management and refurbishment."
+      },
+      {
+        "q": "Does DELGRAÇA offer training programmes?",
+        "a": "Yes. DELGRAÇA offers training in the Cegid Primavera & Vendus management systems, in Surveying, and in Cartography and GIS (Geographic Information Systems)."
+      },
+      {
+        "q": "Where is DELGRAÇA located?",
+        "a": "DELGRAÇA is headquartered at Rua da Missão, Prédio da Suniver, 2nd Floor, Door 21, Ingombota Municipality, Luanda, Angola."
+      },
+      {
+        "q": "Does DELGRAÇA supply equipment and materials?",
+        "a": "Yes. DELGRAÇA supplies equipment and materials in the Office, IT & Networking, Stationery and Security categories. Supplies are quoted according to each client's needs."
+      },
+      {
+        "q": "How can I schedule a presentation meeting?",
+        "a": "DELGRAÇA is fully available for a presentation meeting. You can reach us through the contact form, by email at delgracacomerciogeral@gmail.com, or by phone at +244 921 322 922 / +244 941 117 183."
+      }
+    ]
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search services, training, supplies…",
+    "resultsLabel": "Results",
+    "empty": "Start typing to search.",
+    "noResults": "No results for",
+    "categoryService": "Service",
+    "categoryTraining": "Training",
+    "categorySupply": "Supply"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles and best practices on management, technology and technical projects.",
+    "readMore": "Read article",
+    "readingTime": "min read",
+    "backToBlog": "Back to blog",
+    "publishedOn": "Published on",
+    "relatedTitle": "Keep exploring"
+  },
+  "footer": {
+    "about": "Angolan company specialised in integrated technical solutions for the public and private sectors.",
+    "quickLinks": "Navigation",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "rights": "All rights reserved.",
+    "madeIn": "Luanda, Angola"
+  },
+  "cta": {
+    "bannerTitle": "Shall we work together?",
+    "bannerText": "Partner with DELGRAÇA for solutions adjusted to your organisation's reality.",
+    "bannerButton": "Schedule a Meeting"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "home": "Back to home"
+  }
+}
