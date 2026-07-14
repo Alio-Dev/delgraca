@@ -1,0 +1,13 @@
+# Netlify configuration for the DELGRAÇA site (Next.js 16 + pnpm).
+[build]
+  command = "pnpm run build"
+  publish = ".next"
+
+[build.environment]
+  # Next.js 16 requires Node >= 20.9; pin a modern LTS.
+  NODE_VERSION = "22"
+  # Corepack activates the pnpm version from package.json "packageManager".
+  COREPACK_ENABLE_DOWNLOAD_PROMPT = "0"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
