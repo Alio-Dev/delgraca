@@ -29,10 +29,3 @@ export async function getSupplies(locale: string): Promise<SupplyCategory[]> {
   const t = await getTranslations({ locale, namespace: "supplies" });
   return t.raw("categories") as SupplyCategory[];
 }
-
-export async function getFaq(
-  locale: string
-): Promise<{ q: string; a: string }[]> {
-  const t = await getTranslations({ locale, namespace: "faq" });
-  return t.raw("items") as { q: string; a: string }[];
-}

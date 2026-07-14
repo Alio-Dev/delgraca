@@ -34,7 +34,6 @@ export async function SiteFooter({ locale }: { locale: string }) {
               { href: "/services" as const, label: tn("services") },
               { href: "/training" as const, label: tn("training") },
               { href: "/supplies" as const, label: tn("supplies") },
-              { href: "/faq" as const, label: tn("faq") },
               { href: "/blog" as const, label: tn("blog") },
               { href: "/contact" as const, label: tn("contact") },
             ].map((l) => (
@@ -98,7 +97,7 @@ export async function SiteFooter({ locale }: { locale: string }) {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/20">
         <div className="container-page flex flex-col gap-3 py-6 text-xs text-on-dark-muted md:flex-row md:items-center md:justify-between">
           <p>
             © {year} {company.legalName}. {t("rights")}
@@ -112,6 +111,25 @@ export async function SiteFooter({ locale }: { locale: string }) {
             </span>
             <span>{t("madeIn")}</span>
           </p>
+        </div>
+      </div>
+
+      {/* Powered by Alio Analytics */}
+      <div className="border-t border-white/20 bg-black/25">
+        <div className="container-page flex items-center justify-center gap-1.5 py-4 text-xs">
+          <span className="text-on-dark-muted">Powered by</span>
+          <a
+            href="https://alio.ao"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 font-semibold text-white underline-offset-4 hover:underline"
+          >
+            <span
+              aria-hidden="true"
+              className="inline-block size-1.5 rounded-full bg-brand-orange"
+            />
+            Alio Analytics
+          </a>
         </div>
       </div>
     </footer>

@@ -34,10 +34,6 @@ export const routing = defineRouting({
       "pt-AO": "/fornecimentos",
       en: "/supplies",
     },
-    "/faq": {
-      "pt-AO": "/perguntas-frequentes",
-      en: "/faq",
-    },
     "/contact": {
       "pt-AO": "/contacto",
       en: "/contact",

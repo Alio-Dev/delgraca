@@ -21,7 +21,6 @@ export type NavModel = {
     services: string;
     training: string;
     supplies: string;
-    faq: string;
     blog: string;
     contact: string;
     cta: string;
@@ -66,7 +65,6 @@ export function HeaderClient({
     { href: "/training", label: nav.labels.training },
     { href: "/supplies", label: nav.labels.supplies },
     { href: "/blog", label: nav.labels.blog },
-    { href: "/faq", label: nav.labels.faq },
     { href: "/contact", label: nav.labels.contact },
   ];
 

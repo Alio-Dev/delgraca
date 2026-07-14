@@ -109,22 +109,6 @@ export function ItemListJsonLd({
   );
 }
 
-export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
-  return (
-    <JsonLd
-      data={{
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: items.map((it) => ({
-          "@type": "Question",
-          name: it.q,
-          acceptedAnswer: { "@type": "Answer", text: it.a },
-        })),
-      }}
-    />
-  );
-}
-
 export function BreadcrumbJsonLd({
   items,
 }: {

@@ -14,7 +14,6 @@
     "services": "Serviços",
     "training": "Formações",
     "supplies": "Fornecimentos",
-    "faq": "Perguntas Frequentes",
     "blog": "Blog",
     "contact": "Contacto",
     "cta": "Agendar Reunião",
@@ -221,32 +220,6 @@
         "messageRequired": "Escreva a sua mensagem."
       }
     }
-  },
-  "faq": {
-    "title": "Perguntas Frequentes",
-    "subtitle": "Respostas às questões mais comuns sobre a DELGRAÇA.",
-    "items": [
-      {
-        "q": "Que serviços a DELGRAÇA presta?",
-        "a": "A DELGRAÇA presta soluções técnicas integradas nas áreas de implementação e treinamento de sistemas de gestão, desenvolvimento de software personalizado, consultoria ambiental, tramitação de processos mineiros, projectos arquitectónicos, topografia e SIG, contabilidade e fiscalidade, e gestão e reabilitação de imóveis."
-      },
-      {
-        "q": "A DELGRAÇA oferece formações?",
-        "a": "Sim. A DELGRAÇA disponibiliza formações em Sistema de Gestão Cegid Primavera e Vendus, em Topografia e em Cartografia e SIG (Sistema de Informação Geográfica)."
-      },
-      {
-        "q": "Onde está localizada a DELGRAÇA?",
-        "a": "A DELGRAÇA tem sede na Rua da Missão, Prédio da Suniver, 2.º Andar, Porta n.º 21, Município da Ingombota, Luanda, Angola."
-      },
-      {
-        "q": "A DELGRAÇA fornece equipamentos e materiais?",
-        "a": "Sim. A DELGRAÇA fornece equipamentos e materiais nas categorias de Escritório, Informática e Redes, Papelaria e Segurança. Os fornecimentos são orçamentados de acordo com a necessidade de cada cliente."
-      },
-      {
-        "q": "Como posso agendar uma reunião de apresentação?",
-        "a": "A DELGRAÇA coloca-se à inteira disposição para uma reunião de apresentação. Pode contactar-nos pelo formulário de contacto, por email para comercial@delgraca.ao ou pelos telefones +244 921 322 922 / +244 941 117 183."
-      }
-    ]
   },
   "search": {
     "label": "Pesquisar",

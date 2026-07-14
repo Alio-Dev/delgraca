@@ -14,7 +14,6 @@
     "services": "Services",
     "training": "Training",
     "supplies": "Supplies",
-    "faq": "FAQ",
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Schedule a Meeting",
@@ -221,32 +220,6 @@
         "messageRequired": "Please write your message."
       }
     }
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Answers to the most common questions about DELGRAÇA.",
-    "items": [
-      {
-        "q": "What services does DELGRAÇA provide?",
-        "a": "DELGRAÇA provides integrated technical solutions in enterprise management systems implementation and training, custom software development, environmental consulting, mining process administration, architectural projects, surveying and GIS, accounting and taxation, and property management and refurbishment."
-      },
-      {
-        "q": "Does DELGRAÇA offer training programmes?",
-        "a": "Yes. DELGRAÇA offers training in the Cegid Primavera & Vendus management systems, in Surveying, and in Cartography and GIS (Geographic Information Systems)."
-      },
-      {
-        "q": "Where is DELGRAÇA located?",
-        "a": "DELGRAÇA is headquartered at Rua da Missão, Prédio da Suniver, 2nd Floor, Door 21, Ingombota Municipality, Luanda, Angola."
-      },
-      {
-        "q": "Does DELGRAÇA supply equipment and materials?",
-        "a": "Yes. DELGRAÇA supplies equipment and materials in the Office, IT & Networking, Stationery and Security categories. Supplies are quoted according to each client's needs."
-      },
-      {
-        "q": "How can I schedule a presentation meeting?",
-        "a": "DELGRAÇA is fully available for a presentation meeting. You can reach us through the contact form, by email at comercial@delgraca.ao, or by phone at +244 921 322 922 / +244 941 117 183."
-      }
-    ]
   },
   "search": {
     "label": "Search",

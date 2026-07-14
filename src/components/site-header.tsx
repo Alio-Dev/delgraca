@@ -18,7 +18,6 @@ export async function SiteHeader({ locale }: { locale: string }) {
       services: t("services"),
       training: t("training"),
       supplies: t("supplies"),
-      faq: t("faq"),
       blog: t("blog"),
       contact: t("contact"),
       cta: t("cta"),
