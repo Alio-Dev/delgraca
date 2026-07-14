@@ -13,19 +13,17 @@ export async function SiteFooter({ locale }: { locale: string }) {
   const year = 2026;
 
   return (
-    <footer className="mt-auto bg-surface-contrast text-on-dark">
+    <footer className="mt-auto border-t border-border-subtle bg-white text-ink">
       <div className="container-page grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div className="lg:col-span-1">
-          <div className="inline-flex rounded-lg bg-white p-3">
-            <Logo alt={company.brandName} className="h-8" />
-          </div>
-          <p className="mt-4 max-w-xs text-sm leading-relaxed text-on-dark-muted">
+          <Logo alt={company.brandName} className="h-9" />
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
             {t("about")}
           </p>
         </div>
 
         <nav aria-label={t("quickLinks")}>
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-on-dark">
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-navy">
             {t("quickLinks")}
           </h2>
           <ul className="mt-4 space-y-2 text-sm">
@@ -40,7 +38,7 @@ export async function SiteFooter({ locale }: { locale: string }) {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className="text-on-dark-muted transition-colors hover:text-white"
+                  className="text-ink-muted transition-colors hover:text-brand-blue"
                 >
                   {l.label}
                 </Link>
@@ -50,7 +48,7 @@ export async function SiteFooter({ locale }: { locale: string }) {
         </nav>
 
         <nav aria-label={t("servicesTitle")}>
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-on-dark">
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-navy">
             {t("servicesTitle")}
           </h2>
           <ul className="mt-4 space-y-2 text-sm">
@@ -58,7 +56,7 @@ export async function SiteFooter({ locale }: { locale: string }) {
               <li key={s.slug}>
                 <Link
                   href="/services"
-                  className="text-on-dark-muted transition-colors hover:text-white"
+                  className="text-ink-muted transition-colors hover:text-brand-blue"
                 >
                   {s.name}
                 </Link>
@@ -68,27 +66,27 @@ export async function SiteFooter({ locale }: { locale: string }) {
         </nav>
 
         <div>
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-on-dark">
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-navy">
             {t("contactTitle")}
           </h2>
-          <address className="mt-4 space-y-3 text-sm not-italic text-on-dark-muted">
+          <address className="mt-4 space-y-3 text-sm not-italic text-ink-muted">
             <p className="flex items-start gap-2.5">
-              <MapPin className="mt-0.5 size-4 shrink-0 text-brand-orange" aria-hidden="true" />
+              <MapPin className="mt-0.5 size-4 shrink-0 text-brand-orange-text" aria-hidden="true" />
               <span>{fullAddress}</span>
             </p>
             {company.phones.map((p, i) => (
               <p key={p} className="flex items-center gap-2.5">
-                <Phone className="size-4 shrink-0 text-brand-orange" aria-hidden="true" />
-                <a href={telHrefs[i]} className="transition-colors hover:text-white">
+                <Phone className="size-4 shrink-0 text-brand-orange-text" aria-hidden="true" />
+                <a href={telHrefs[i]} className="transition-colors hover:text-brand-blue">
                   {p}
                 </a>
               </p>
             ))}
             <p className="flex items-center gap-2.5">
-              <Mail className="size-4 shrink-0 text-brand-orange" aria-hidden="true" />
+              <Mail className="size-4 shrink-0 text-brand-orange-text" aria-hidden="true" />
               <a
                 href={`mailto:${company.email}`}
-                className="break-all transition-colors hover:text-white"
+                className="break-all transition-colors hover:text-brand-blue"
               >
                 {company.email}
               </a>
@@ -97,8 +95,8 @@ export async function SiteFooter({ locale }: { locale: string }) {
         </div>
       </div>
 
-      <div className="border-t border-white/20">
-        <div className="container-page flex flex-col gap-3 py-6 text-xs text-on-dark-muted md:flex-row md:items-center md:justify-between">
+      <div className="border-t border-border-subtle">
+        <div className="container-page flex flex-col gap-3 py-6 text-xs text-ink-muted md:flex-row md:items-center md:justify-between">
           <p>
             © {year} {company.legalName}. {t("rights")}
           </p>
@@ -115,23 +113,23 @@ export async function SiteFooter({ locale }: { locale: string }) {
       </div>
 
       {/* Powered by Alio Analytics */}
-      <div className="bg-white">
-        <div className="container-page flex items-center justify-center py-3">
+      <div className="border-t border-border-subtle">
+        <div className="container-page flex items-center justify-center py-5">
           <a
             href="https://www.alio.ao"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Powered by Alio Analytics"
-            className="flex items-center gap-1.5 opacity-60 transition-opacity duration-200 hover:opacity-100"
+            className="flex items-center gap-2.5 opacity-70 transition-opacity duration-200 hover:opacity-100"
           >
-            <span className="whitespace-nowrap text-[9px] font-medium uppercase tracking-[0.14em] text-black/40">
+            <span className="whitespace-nowrap text-[11px] font-medium uppercase tracking-[0.14em] text-ink-muted">
               Powered by
             </span>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/brand/alio.svg"
               alt="Alio Analytics"
-              className="block h-4 w-auto"
+              className="block h-7 w-auto"
             />
           </a>
         </div>
