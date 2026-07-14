@@ -9,7 +9,7 @@ export const company = {
   nif: "5002134306",
   cae: "82900 – Actividades de serviços de apoio prestados às empresas, n.e.",
   matricula: "40112-24/240923",
-  email: "delgracacomerciogeral@gmail.com",
+  email: "comercial@delgraca.ao",
   phones: ["+244 921 322 922", "+244 941 117 183"],
   director: "Afonso Canga",
   address: {

@@ -4,6 +4,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { company, telHrefs, fullAddress } from "@/data/company";
 import { PageHeader } from "@/components/page-header";
 import { ContactForm } from "@/components/contact-form";
+import { ContactMap } from "@/components/contact-map";
 import { LocalBusinessJsonLd } from "@/components/json-ld";
 
 export async function generateMetadata({
@@ -81,17 +82,8 @@ export default async function ContactPage({
               </InfoRow>
             </div>
 
-            {/* Map placeholder — embed a real map before launch */}
-            <div
-              role="img"
-              aria-label={t("mapPlaceholder")}
-              className="flex min-h-48 items-center justify-center rounded-lg border border-dashed border-border-strong bg-surface p-6 text-center text-sm text-ink-muted"
-            >
-              <span className="flex flex-col items-center gap-2">
-                <MapPin className="size-7 text-brand-orange-text" aria-hidden="true" />
-                {t("mapPlaceholder")}
-              </span>
-            </div>
+            {/* Interactive Leaflet map */}
+            <ContactMap label={t("mapPlaceholder")} />
           </div>
 
           <ContactForm />

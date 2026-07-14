@@ -58,7 +58,7 @@ export async function SiteFooter({ locale }: { locale: string }) {
             {services.slice(0, 6).map((s) => (
               <li key={s.slug}>
                 <Link
-                  href={{ pathname: "/services/[slug]", params: { slug: s.slug } }}
+                  href="/services"
                   className="text-on-dark-muted transition-colors hover:text-white"
                 >
                   {s.name}

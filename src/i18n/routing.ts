@@ -26,10 +26,6 @@ export const routing = defineRouting({
       "pt-AO": "/servicos",
       en: "/services",
     },
-    "/services/[slug]": {
-      "pt-AO": "/servicos/[slug]",
-      en: "/services/[slug]",
-    },
     "/training": {
       "pt-AO": "/formacoes",
       en: "/training",

@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
         before:
           "Projectos técnicos dependem de dados fiáveis. Quando o projecto envolve território, o recurso a levantamentos rigorosos e a sistemas geoespaciais faz toda a diferença — é o caso dos nossos serviços de ",
         linkLabel: "Topografia e SIG",
-        href: { pathname: "/services/[slug]", params: { slug: "topografia-sig" } },
+        href: "/services",
         after: ", que garantem uma base de dados sólida para a tomada de decisão.",
       },
       { type: "h2", text: "3. Apoie-se em sistemas de gestão" },
@@ -67,10 +67,7 @@ export const blogPosts: BlogPost[] = [
         before:
           "Ferramentas adequadas reduzem erros e automatizam tarefas repetitivas. A ",
         linkLabel: "implementação e treinamento de sistemas de gestão",
-        href: {
-          pathname: "/services/[slug]",
-          params: { slug: "sistemas-de-gestao" },
-        },
+        href: "/services",
         after:
           " ajuda a equipa a trabalhar com dados consistentes e relatórios atempados.",
       },
@@ -111,7 +108,7 @@ export const blogPosts: BlogPost[] = [
         before:
           "Technical projects rely on reliable data. When a project involves the territory, rigorous surveys and geospatial systems make all the difference — as with our ",
         linkLabel: "Surveying & GIS",
-        href: { pathname: "/services/[slug]", params: { slug: "topografia-sig" } },
+        href: "/services",
         after: " services, which provide a solid data foundation for decision-making.",
       },
       { type: "h2", text: "3. Lean on management systems" },
@@ -119,10 +116,7 @@ export const blogPosts: BlogPost[] = [
         type: "link-p",
         before: "The right tools reduce errors and automate repetitive tasks. Our ",
         linkLabel: "management systems implementation and training",
-        href: {
-          pathname: "/services/[slug]",
-          params: { slug: "sistemas-de-gestao" },
-        },
+        href: "/services",
         after: " helps teams work with consistent data and timely reports.",
       },
       { type: "h2", text: "4. Monitor deadlines and costs" },

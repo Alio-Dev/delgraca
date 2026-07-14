@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getPathname } from "@/i18n/navigation";
 import { routing, type AppPathnames } from "@/i18n/routing";
-import { getServices } from "@/lib/content";
 import { SITE_URL } from "@/data/company";
 
 type HrefArg = Parameters<typeof getPathname>[0]["href"];
@@ -32,8 +31,6 @@ function entry(
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const services = await getServices(routing.defaultLocale);
-
   const staticRoutes: [AppPathnames, number][] = [
     ["/", 1],
     ["/about", 0.8],
@@ -45,13 +42,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ["/blog", 0.6],
   ];
 
-  const entries = staticRoutes.map(([href, p]) => entry(href, p));
-
-  for (const s of services) {
-    entries.push(
-      entry({ pathname: "/services/[slug]", params: { slug: s.slug } }, 0.7)
-    );
-  }
-
-  return entries;
+  return staticRoutes.map(([href, p]) => entry(href, p));
 }

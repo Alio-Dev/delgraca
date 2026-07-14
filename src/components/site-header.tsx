@@ -14,7 +14,6 @@ export async function SiteHeader({ locale }: { locale: string }) {
     ariaLabel: t("ariaLabel"),
     logoAlt: t("home"),
     labels: {
-      home: t("home"),
       about: t("about"),
       services: t("services"),
       training: t("training"),

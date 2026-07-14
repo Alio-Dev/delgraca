@@ -4,6 +4,7 @@ import { Info } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { getSupplies } from "@/lib/content";
 import { PageHeader } from "@/components/page-header";
+import { PopoverCard } from "@/components/popover-card";
 import { supplyIcons } from "@/components/icons";
 import { CtaBanner } from "@/components/cta-banner";
 import { ItemListJsonLd } from "@/components/json-ld";
@@ -27,6 +28,7 @@ export default async function SuppliesPage({
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "supplies" });
   const tn = await getTranslations({ locale, namespace: "nav" });
+  const ts = await getTranslations({ locale, namespace: "services" });
   const categories = await getSupplies(locale);
 
   return (
@@ -48,30 +50,22 @@ export default async function SuppliesPage({
             {t("note")}
           </p>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {categories.map((cat) => {
               const Icon = supplyIcons[cat.slug];
               return (
-                <section
+                <PopoverCard
                   key={cat.slug}
-                  id={cat.slug}
-                  aria-labelledby={`cat-${cat.slug}`}
-                  className="surface-card p-6"
+                  title={cat.name}
+                  subtitle={cat.description}
+                  detailLabel={ts("viewDetail")}
+                  icon={
+                    Icon ? (
+                      <Icon className="size-6" aria-hidden="true" strokeWidth={1.75} />
+                    ) : undefined
+                  }
                 >
-                  <div className="flex items-center gap-3">
-                    <span className="inline-flex size-11 items-center justify-center rounded-lg bg-brand-blue/8 text-brand-blue">
-                      {Icon && (
-                        <Icon className="size-5" aria-hidden="true" strokeWidth={1.75} />
-                      )}
-                    </span>
-                    <div>
-                      <h2 id={`cat-${cat.slug}`} className="text-lg">
-                        {cat.name}
-                      </h2>
-                      <p className="text-sm text-ink-muted">{cat.description}</p>
-                    </div>
-                  </div>
-                  <ul className="mt-5 flex flex-wrap gap-2">
+                  <ul className="flex flex-wrap gap-2">
                     {cat.items.map((item) => (
                       <li
                         key={item}
@@ -81,7 +75,7 @@ export default async function SuppliesPage({
                       </li>
                     ))}
                   </ul>
-                </section>
+                </PopoverCard>
               );
             })}
           </div>

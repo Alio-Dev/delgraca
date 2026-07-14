@@ -11,7 +11,7 @@ import { Link } from "@/i18n/navigation";
 import { getServices, getTraining, getSupplies } from "@/lib/content";
 import { company, telHrefs, fullAddress } from "@/data/company";
 import { SectionHeading } from "@/components/section-heading";
-import { ServiceCard } from "@/components/service-card";
+import { PopoverCard } from "@/components/popover-card";
 import { CtaBanner } from "@/components/cta-banner";
 import { Logo } from "@/components/logo";
 import { ServiceIcon, supplyIcons } from "@/components/icons";
@@ -122,15 +122,18 @@ export default async function HomePage({
               <ArrowRight className="size-4" aria-hidden="true" />
             </Link>
           </div>
-          <div className="auto-grid mt-10">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
-              <ServiceCard
+              <PopoverCard
                 key={s.slug}
-                slug={s.slug}
-                name={s.name}
-                short={s.short}
-                cta={ts("viewDetail")}
-              />
+                triangle
+                title={s.name}
+                subtitle={s.short}
+                detailLabel={ts("viewDetail")}
+                icon={<ServiceIcon slug={s.slug} className="size-6" />}
+              >
+                <p className="text-sm leading-relaxed text-ink">{s.long}</p>
+              </PopoverCard>
             ))}
           </div>
         </div>

@@ -21,7 +21,8 @@ export function Logo({
       width={1097}
       height={594}
       priority={priority}
-      className={cn("h-auto w-auto", className)}
+      // width auto-scales to the height utility passed in className (e.g. h-8)
+      className={cn("w-auto", className)}
     />
   );
 }
