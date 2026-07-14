@@ -115,20 +115,24 @@ export async function SiteFooter({ locale }: { locale: string }) {
       </div>
 
       {/* Powered by Alio Analytics */}
-      <div className="border-t border-white/20 bg-black/25">
-        <div className="container-page flex items-center justify-center gap-1.5 py-4 text-xs">
-          <span className="text-on-dark-muted">Powered by</span>
+      <div className="bg-white">
+        <div className="container-page flex items-center justify-center py-3">
           <a
-            href="https://alio.ao"
+            href="https://www.alio.ao"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 font-semibold text-white underline-offset-4 hover:underline"
+            aria-label="Powered by Alio Analytics"
+            className="flex items-center gap-1.5 opacity-60 transition-opacity duration-200 hover:opacity-100"
           >
-            <span
-              aria-hidden="true"
-              className="inline-block size-1.5 rounded-full bg-brand-orange"
+            <span className="whitespace-nowrap text-[9px] font-medium uppercase tracking-[0.14em] text-black/40">
+              Powered by
+            </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/alio.svg"
+              alt="Alio Analytics"
+              className="block h-4 w-auto"
             />
-            Alio Analytics
           </a>
         </div>
       </div>
